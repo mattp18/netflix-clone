@@ -1,3 +1,8 @@
+.row {
+  color: white;
+  margin-left: 20px;
+}
+
 .row__posters {
   display: flex;
   overflow-y: hidden;
@@ -10,6 +15,7 @@
 }
 
 .row__poster {
+  cursor: pointer;
   object-fit: contain;
   width: 100%;
   max-height: 100px;

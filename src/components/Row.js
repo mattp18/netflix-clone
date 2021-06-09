@@ -37,14 +37,8 @@ function Row( { title, fetchUrl, isLargeRow } ) {
             <h2>{ title }</h2>
 
             <div className="row__posters">
-                {/** several row__poster */}
-
                 {mapMoveImage}
             </div>
-
-
-            
-
         </div>
     )
 }
